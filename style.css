@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 #main{
     width: 100%;
     height: 100vh;
-    background-color: rgb(219, 219, 13);
+    background-color: rgb(249, 249, 7);
 }
 
 .nav-container {
@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
     font-size: 24px;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     gap: 50px;
 }
@@ -48,4 +48,17 @@ body::-webkit-scrollbar {
     width: 25px;
     height: 25px;
     object-fit: cover;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: yellow;
+}   
+ 
+.hero img {
+    width: 50px;
 }
